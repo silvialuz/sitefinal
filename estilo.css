@@ -10,7 +10,7 @@ header{
  z-index: 10;
 }
 #logo {
-    width: 70px;
+    width: 40px;
     position: absolute;
     top: 10px;
     margin-left: 5%;
@@ -57,7 +57,7 @@ li:hover{
     
 }
 section {
-    padding: 150px;
+    padding: 500px;
     float: left;
 }
 .destaque {
@@ -75,7 +75,7 @@ section {
 }
 .imgeco2 {
     width: 180px;
-    margin: 2px;
+    margin: 5px;
     
 }
 .coluna{
@@ -105,10 +105,30 @@ section {
 footer{
     background-color: cadetblue;
     color:white;
-    height: 120px; 
+    height: 250px; 
     width: 100%;
     position:static;
     float: right;
-    
 }
-
+@media all and (max-width: 768px) {
+    #menu{
+    visibility: hidden;
+    }
+} 
+.coluna, .dois, .quatro, .cinco {
+    display: block;   
+    width: 80%;
+    padding: 0;
+    margin: 60px auto;
+    float: none;  
+}
+#logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+}
+#logo {
+    margin-left: 0px;
+    transform: translateX(-50%);
+}
