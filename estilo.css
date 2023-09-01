@@ -1,0 +1,114 @@
+html, body{
+    margin: 0;
+}
+header{
+ background-color:cadetblue ;  
+ color:white;
+ height: 80px; 
+ width: 100%;
+ position: fixed;
+ z-index: 10;
+}
+#logo {
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style:none;
+    margin-top: 0px;
+}
+li{
+    float: left;
+    padding: 20 10 20 10 ;
+}
+li:hover{
+    background-color: rgb(80, 254, 255);
+}
+#imagem_fundo{
+    background: url("img.img/146269190_m-scaled.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: couver;
+}
+#titulo{
+    color: white;
+    padding-top: 20%;
+    font-size: 60px;
+}
+#subtitulo{
+    color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#acao:hover{
+    background-color: rgb(80, 254, 255);
+    color: darkcyan
+    border: 1.5px white solid;
+    padding: 10px 20px 10px 20px;
+}
+.icone{
+    width: 70px;
+    margin: 20px;
+    
+}
+section {
+    padding: 150px;
+    float: left;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+#projeto{
+    background-color: #f7f7f7;
+    padding: 20px;
+    
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+.imgeco2 {
+    width: 180px;
+    margin: 2px;
+    
+}
+.coluna{
+    float:left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+.cinco{
+    
+    padding: 0 5%;
+}
+.quatro{
+    width: 15%;
+    padding: 0 5%;
+}
+
+.justificado{
+    text-align:justify;  
+}
+
+.centralizado{
+    text-align: center;
+}
+footer{
+    background-color: cadetblue;
+    color:white;
+    height: 120px; 
+    width: 100%;
+    position:static;
+    float: right;
+    
+}
+
